@@ -1,4 +1,4 @@
-# TVH Image Shopping [(project)](https://bitbucket.org/tvhctvp13/imageshoppingrepo/src/0277ad579a887a7bb2c7836fece0522a0942d8ec/image-shopping/?at=master)
+# TVH Image Shopping
 
 *  Đây là trang web dùng để upload, chia sẻ, mua và bán ảnh.
 *  Website cho phép người dùng đăng tải các ảnh của mình lên website
