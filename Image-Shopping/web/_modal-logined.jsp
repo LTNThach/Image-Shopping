@@ -21,9 +21,14 @@
             <div class="modal-body">
                 <!--Cart Form-->
                 <form class="form-horizontal" role="form">
-                    <c:forEach items="${ListInCart}" var="photo">
-                        <p> ${photo.getNomPhoto()} - ${photo.getPrix()} <a class="close" href="DeleteProductCart?IDP=${photo.getIDP()}"> x </a></p>
-                    </c:forEach>
+                    <c:if test="${ListInCart.size() <= 0}">
+                        <label>You have no image in your shopping cart.</label>
+                    </c:if>
+                    <c:if test="${ListInCart.size() > 0}">
+                        <c:forEach items="${ListInCart}" var="photo">
+                            <p> ${photo.getNomPhoto()} - ${photo.getPrix()} <a class="close" href="DeleteProductCart?IDP=${photo.getIDP()}"> x </a></p>
+                        </c:forEach>
+                    </c:if>
                 </form>
             </div>
             
