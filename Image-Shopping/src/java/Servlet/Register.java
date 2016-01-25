@@ -69,13 +69,17 @@ public class Register extends HttpServlet {
         String username = request.getParameter("username");
         String password = GeneratePassword();
         String email = request.getParameter("email");
-        String firstname = request.getParameter("firstname");
+        String firstname = request.getParameter("firstname"); 
         String lastname = request.getParameter("lastname");
         String addresses = request.getParameter("addresses");
         String phone = request.getParameter("phone");
         Connection conn = Utils.getStoredConnection(session);
         int check = DBUtils.CheckUsername(conn, username);
         String errorString = null;
+        if ("administrator".equals(username))
+        {
+            check = 1;
+        }
         
         if (check == 0)
         {
