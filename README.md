@@ -7,9 +7,9 @@
 
 ## Thông tin nhóm
 #### Chương trình Việt-Pháp khóa 2013 ####
-1. Student 1: ![NTTV.jpg](https://bitbucket.org/repo/96eMer/images/864504552-NTTV.jpg) 1352019, Nguyễn Thị Tường Vy
-2. Student 2: ![LTNT.jpg](https://bitbucket.org/repo/96eMer/images/2445283914-LTNT.jpg) 1352014, Lưu Thái Ngọc Thạch
-3. Student 3: ![NTH.jpg](https://bitbucket.org/repo/96eMer/images/3524291033-NTH.jpg) 1352003, Nguyễn Thái Hoàng
+1. Student 1: 1352019, Nguyễn Thị Tường Vy
+2. Student 2: 1352014, Lưu Thái Ngọc Thạch
+3. Student 3: 1352003, Nguyễn Thái Hoàng
 
 ## Chức năng
 
